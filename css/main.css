@@ -1,0 +1,17 @@
+/*import other files we want to use*/
+/*colors to be used*/
+body {
+  background: #272727;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+.basic-settings, label, h1, h2, p {
+  color: #fff;
+}
+
+.card-space {
+  padding-bottom: 2em;
+  width: 200em;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+/*import other files we want to use*/
+@import 'config';
+
+
+body{
+    background: $primary-color;
+    
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    line-height: 1;
+}
+
+
+
+.basic-settings{
+    color: $third-color;
+}
+
+p{
+    @extend .basic-settings;
+}
+
+h2{   
+@extend .basic-settings;
+}
+
+h1{
+    @extend .basic-settings;
+}
+
+label{
+        @extend .basic-settings;
+}
+
+.card-space{
+    padding-bottom: 2em;
+    width: 200em;
+}

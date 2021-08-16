@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap javascript flashcard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+  <h1>My Flashcard</h1>
+</div>
+  
+
+  <div class="row">
+    <div class="card-space">
+    <div class="col-sm-4">
+     <form action="">
+         <label for="front">Front of the card (Place the term or question here)</label>
+         <textarea id="front" cols="30" rows="10" class="form-control" ></textarea>
+        </div>
+         <label for="back" >Back of the card (The answer for the card)</label>
+         <textarea name="" id="back" cols="30" rows="10"></textarea>
+         <button type="button" class="btn btn-primary btn-large btn-block mt-3" id="btnSave">Save card</button>
+         </form>
+    </div>
+    <div class="col">
+      <h2>Make your flashcard</h2>
+      <p>Lets make a flashcard add your text for the front and back of the flashcard</p>
+      <p>Number of Flashcards: <output id="numCards"></output></p>
+    </div>
+
+
+   
+  </div>
+</div>
+<script src="js_file/flashcard.js"></script>
+
+</body>
+</html>
