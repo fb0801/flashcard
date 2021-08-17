@@ -27,6 +27,7 @@ h2{
 
 h1{
     @extend .basic-settings;
+    text-align: center;
 }
 
 label{
@@ -36,4 +37,17 @@ label{
 .card-space{
     padding-bottom: 2em;
     width: 200em;
+}
+
+.back{
+    width: 200em;
+}
+
+.basic-btn-settings{
+    width: 150px;
+    margin: 15px;
+}
+.btn{
+    float: right;
+    @extend .basic-btn-settings;
 }

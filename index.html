@@ -18,9 +18,21 @@
   <h1>My Flashcard</h1>
 </div>
   
+<div class="col">
+  <h2>Make your flashcard</h2>
+  <p>Lets make a flashcard add your text for the front and back of the flashcard</p>
+  <p>Number of Flashcards: <output id="numCards"></output></p>
+</div>
 
   <div class="row">
+    
     <div class="card-space">
+      <div class="page-btns">
+        <button type="button" class="btn btn-primary  btn-block mt-3" id="btnSave">Save card</button>
+        <button type="button" class="btn btn-primary  btn-block mt-3" id="btnReview">Review card</button>
+        <button type="button" class="btn btn-primary  btn-block mt-3" id="btnRemove">Remove card</button>
+        <button type="button" class="btn btn-primary  btn-block mt-3" id="btnEdit">Edit card</button>
+       </div>
     <div class="col-sm-4">
      <form action="">
          <label for="front">Front of the card (Place the term or question here)</label>
@@ -28,14 +40,13 @@
         </div>
          <label for="back" >Back of the card (The answer for the card)</label>
          <textarea name="" id="back" cols="30" rows="10"></textarea>
-         <button type="button" class="btn btn-primary btn-large btn-block mt-3" id="btnSave">Save card</button>
-         </form>
+        </form>
+        
+
+
+         
     </div>
-    <div class="col">
-      <h2>Make your flashcard</h2>
-      <p>Lets make a flashcard add your text for the front and back of the flashcard</p>
-      <p>Number of Flashcards: <output id="numCards"></output></p>
-    </div>
+    
 
 
    
